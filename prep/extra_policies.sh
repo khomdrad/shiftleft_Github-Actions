@@ -3,7 +3,7 @@
 #this script needs the following variables to be defined
 TL_USER=demoshiftleft
 TL_PASS=demoshiftleft
-TL_CONSOLE=52.253.83.186:8083
+TL_CONSOLE=52.253.83.186
 
 #create evilpetclinic collection
 curl -k -u $TL_USER:$TL_PASS -H 'Content-Type: application/json' -X POST \
