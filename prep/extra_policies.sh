@@ -5,6 +5,7 @@
 #TL_PASS=demoshiftleft
 #TL_CONSOLE=52.253.83.186
 
+
 #create evilpetclinic collection
 curl -k -u $TL_USER:$TL_PASS -H 'Content-Type: application/json' -X POST \
   -d '{"name":"evilpetclinic","containers":["*"],"hosts":["*"],"images":["*evilpetclinic*"],"labels":["*"],"appIDs":["*"],"functions":["*"],"namespaces":["*"],"accountIDs":["*"],"codeRepos":["*"],"clusters":["*"],"color":"#68DCFC"}' \
